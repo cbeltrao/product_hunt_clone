@@ -1,0 +1,5 @@
+# test/fixtures/users.yml
+george:
+  email: "george@abitbol.com"
+  first_name: "George"
+  last_name: "Abitbol"

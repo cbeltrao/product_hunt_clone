@@ -1,0 +1,8 @@
+<!-- app/views/products/index.html.erb -->
+<h1>Awesome Products</h1>
+<%= simple_form_for @product do |f| %>
+<%= f.input :name %>
+<%= f.input :tagline %>
+<%= f.submit class: 'btn btn-primary'%>
+<% end %>
+

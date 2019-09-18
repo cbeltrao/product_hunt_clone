@@ -23,6 +23,9 @@ group :development do
 end
 
 group :development, :test do
+  gem 'capybara'
+  gem 'webdrivers', '~> 4.0'
+  gem 'launchy'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
